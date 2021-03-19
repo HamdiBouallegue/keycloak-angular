@@ -11,5 +11,5 @@ Integration of keycloak with Angular
 2.Launch development server, and open localhost:4200 in your browser:
 
  ```
- npm install
+ npm start
  ```
