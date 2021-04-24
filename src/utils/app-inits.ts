@@ -11,8 +11,8 @@ export function initializer(keycloak: KeycloakService): () => Promise<any> {
             realm: environment.keycloak.realm,
             clientId: environment.keycloak.clientId,
           },
-          // If set a false you canot get any information about the user exemple the username
-          // if you use keycloakService.getUserName()
+          // If set a false you cannot get any information about the user example the username
+          // if you use keycloakService.getUserName() you get this error
           // User not logged in or user profile was not loaded.
           loadUserProfileAtStartUp: true,
           initOptions: {
